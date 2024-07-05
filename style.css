@@ -1,24 +1,16 @@
+/* INDEX.html */
 html {
     scroll-behavior: smooth;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .landingPage {
-    background-image: url("./background.jpg");
+    background-image: url("./background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
-}
-
-.welcome {
-    text-align: center;
-    font-size: large;
-}
-
-.footer {
-    text-align: center;
 }
 
 .content {
@@ -33,7 +25,7 @@ html {
 
 .content > a {
     position: relative;
-    color: wheat;
+    color: white;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
@@ -67,15 +59,34 @@ html {
 }
 
 .land {
+    font-size: larger;
     display: flex;
+    padding-bottom: 5px;
     justify-content: center;
     align-items: center;
-    margin-top: 15em;
+    margin-top: 10em;
+    color: white;
+    margin-bottom: 0;
 }
 
-.images {
-    border: 1px;
+.description {
+    text-wrap: wrap;
+    font-size: medium;
     display: flex;
-    margin-bottom: 100px;
-    margin-right: 80px;
+    text-align: center;
+    color: white;
+    margin-right: 25%;
+    margin-left: 25%;
 }
+/* INDEX.html */
+
+/* Latihan1.html */
+.welcome {
+    text-align: center;
+    font-size: large;
+}
+
+.footer {
+    text-align: center;
+}
+/* Latihan1.html */

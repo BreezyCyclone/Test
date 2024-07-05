@@ -5,7 +5,7 @@
     </head>
     <body>
         <h2>Selamat Datang di Halaman 2</h2>
-        <p><a href="lthan4.html">Kembali ke hal1</a></p>
+        <p><a href="lthan4.html" id="closeTab">Kembali ke hal1</a></p>
         <!-- page anchor -->
         <hr />
         <nav>
@@ -103,4 +103,11 @@
         </p>
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </body>
+    <script>
+        const button = document.getElementById("closeTab");
+        button.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.close();
+        });
+    </script>
 </html>
